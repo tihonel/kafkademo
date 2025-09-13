@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "name": "AvroTextDto",
+  "namespace": "com.tihon.kafkademo.dto",
+  "fields": [
+    {
+      "name": "text",
+      "type": "string"
+    }
+  ]
+}
