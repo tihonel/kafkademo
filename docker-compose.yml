@@ -33,6 +33,7 @@ services:
     environment:
       - KAFKA_CLUSTERS_0_NAME=local
       - KAFKA_CLUSTERS_0_BOOTSTRAP_SERVERS=kafka-1:9192,kafka-2:9192,kafka-3:9192
+      - KAFKA_CLUSTERS_0_SCHEMAREGISTRY=http://schema-registry:8081
     depends_on:
       - schema-registry
     ports:
